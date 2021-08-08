@@ -3,7 +3,6 @@ print("Hello World")
 print("Made By Roy :D")
 
 
-
 class Game(tk.Frame):
     def __init__(self, master):
         super(Game, self).__init__(master)

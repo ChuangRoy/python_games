@@ -20,7 +20,7 @@ class Box(object):
         self.color = color
 
         self.visivle = True
-        
+
     #-------------------------------------------------------------------------
     # 更新.
     #-------------------------------------------------------------------------
@@ -37,9 +37,9 @@ class Circle(object):
     #   pygame  : pygame.
     #   canvas  : 畫佈.
     #   name    : 物件名稱.
-    #   pos     : 位置.  
+    #   pos     : 位置.
     #   radius  : 大小.
-    #   color   : 顏色.    
+    #   color   : 顏色.
     #-------------------------------------------------------------------------
     def __init__( self, pygame, canvas, name, pos, radius, color):
         self.pygame = pygame
@@ -48,7 +48,7 @@ class Circle(object):
         self.pos = pos
         self.radius = radius
         self.color = color
-        
+
         self.visivle = True
 
     #-------------------------------------------------------------------------
